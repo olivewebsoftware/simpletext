@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--(C) 2022 OliveWeb Software-->
+<!--Do not distribute.-->
+<html>
+    <head>
+        <title>OliveWeb Simple Text</title>
+    </head>
+    <body>
+        <script src="convert.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <h1 id="ltext">OliveWeb SimpleText 1.0</h1>
+        <p id="pra">Converts any text you type <br>
+            to italics or bold text. <br>
+        </p>
+        <h1 id="ltext">Type or paste in text:</h1>
+        <input type="text" id="boxone" placeholder="Paste or type text here...">
+        <h1 id="ltext">Choose text format:</h1>
+        <input type="radio" id="pizza" name="fav_language" value="HTML" onclick="makeITAL();">
+        <label for="pizza" id="pizza2">Italic</label><br>
+        <input type="radio" id="soda2" id="soda" name="fav_language" value="HTML" onclick="makeBOLD();">
+        <label for="soda" id="soda2">Bold</label><br>
+        <p id="chosen">You have chosen:</p>
+        <p id="choice">...</p>
+        <button onclick="convert();" id="cvt">Convert</button>
+        <h1 id="ltext">Output:</h1>
+        <i id="ital"></i>
+        <b id="bld"></b>
+        <br>
+        <br>
+        <br>
+        <p id="pra">Created by
+        OliveWeb Software.</p>
+        <a id="ala" onclick="window.open('https://olivewebsoftware.github.io/oliveweb')">OliveWeb's Website</a>
+    </body>
+</html>

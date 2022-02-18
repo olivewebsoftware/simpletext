@@ -1,0 +1,47 @@
+/* (C) 2022 OliveWeb Software */
+/* Do not distribute */
+#pizza2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#soda2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#choice {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#chosen {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#ltext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+#pra {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#ala {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+#boxone {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ital {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#bld {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#cvt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+}
